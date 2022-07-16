@@ -19,6 +19,6 @@ PS. check jakarta project for new version
 
 ## Deploy Wildfly (jboss)
 
-1 - cd /wildfly-path/bin/
-2 - ./standalone.sh 
-3 - cp app.war /wildfly-path/standalone\deployments
+    1 - cd /wildfly-path/bin/
+    2 - ./standalone.sh 
+    3 - cp app.war /wildfly-path/standalone\deployments
