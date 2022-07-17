@@ -5,6 +5,12 @@
             <property name="javax.persistence.schema-generation.scripts.action" value="drop-and-create"/>
             <property name="javax.persistence.schema-generation.scripts.create-target" value="list4UCreate.ddl"/>
             <property name="javax.persistence.schema-generation.scripts.drop-target" value="list4UDrop.ddl"/>
+
+            <property name="hibernate.dialect" value="org.hibernate.dialect.H2Dialect"/>
+            <property name="javax.persistence.jdbc.driver" value="org.h2.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:h2:mem:list4u" />
+            <property name="javax.persistence.jdbc.user" value="sa" />
+            <property name="javax.persistence.jdbc.password" value="sa" />
         </properties>
     </persistence-unit>
 </persistence>

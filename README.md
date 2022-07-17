@@ -22,3 +22,10 @@ PS. check jakarta project for new version
     1 - cd /wildfly-path/bin/
     2 - ./standalone.sh 
     3 - cp app.war /wildfly-path/standalone\deployments
+
+## Arquillian Tests
+
+    https://docs.wildfly.org/18/Testsuite.html
+    https://hantsy.github.io/jakartaee9-starter-boilerplate/arq-weld.html
+    http://www.mastertheboss.com/jboss-frameworks/arquillian/arquillian-tutorial/
+    https://medium.com/swlh/testing-jakarta-ee-9-components-with-arquillian-and-weld-f9e1add08895

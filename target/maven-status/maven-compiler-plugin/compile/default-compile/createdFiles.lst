@@ -1,3 +1,4 @@
 pt\bmo\list4uee\enums\Supermarket.class
 pt\bmo\list4uee\model\Cart.class
+pt\bmo\list4uee\repository\ItemRepository.class
 pt\bmo\list4uee\model\Item.class
